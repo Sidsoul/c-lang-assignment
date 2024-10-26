@@ -21,5 +21,8 @@ int main(){
     else{
         printf("c is equal to a\n");
     }
+    if(c==d){
+        printf("c is equal to d\n");
+    }
     return 0;
 }
