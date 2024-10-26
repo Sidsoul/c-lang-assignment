@@ -4,8 +4,8 @@ int main(){
 
   // using increment
   int a = 10;
-  printf("a++ %d",a++);
+  printf("a++ %d\n",a++);
   // using decrement
-  printf("a-- %d",a--);
+  printf("a-- %d\n",a--);
   return 0;
 }
