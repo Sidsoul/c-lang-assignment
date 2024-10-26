@@ -24,5 +24,9 @@ int main(){
     if(c==d){
         printf("c is equal to d\n");
     }
+    
+    else{
+        printf("c is not equal to d\n");
+    }
     return 0;
 }
