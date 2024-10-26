@@ -4,4 +4,5 @@ int main(){
     int b = 20;
     int max = (a>b)?a:b;
     printf("The maximum value is : %d",max);
+    return 0;
 }
