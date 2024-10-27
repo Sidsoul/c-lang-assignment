@@ -7,27 +7,27 @@ int main()
 
     
     int a = 100;
-    printf("Value of a is %d\n", a);
+    printf("a = 10: %d\n", a);
 
     
     a += 10;
-    printf("Value of a is %d\n", a);
+    printf("a += 10: %d\n", a);
 
     
     a -= 10;
-    printf("Value of a is %d\n", a);
+    printf("a -= 10: %d\n", a);
 
     
     a *= 10;
-    printf("Value of a is %d\n", a);
+    printf("a *= 10: %d\n", a);
 
     
     a /= 10;
-    printf("Value of a is %d\n", a);
+    printf("a /= 10: %d\n", a);
 
 
     a %= 10;
-    printf("Value of a is %d\n", a);
+    printf("a %= 10: %d\n", a);
     
 
     return 0;
