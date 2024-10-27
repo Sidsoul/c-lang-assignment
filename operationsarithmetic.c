@@ -12,7 +12,7 @@ int main(){
     printf("Subtraction = %d\n",sub);
     printf("Product = %d\n",mult);
     printf("Division = %d\n",div);
-    printf("Modulus %d\n",mod);
+    printf("Modulus = %d\n",mod);
     return 0;
 
 }
