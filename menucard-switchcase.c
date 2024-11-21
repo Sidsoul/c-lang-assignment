@@ -9,7 +9,7 @@ int main(){
     printf("No. 2 : Pizza - Rs. 60\n");
     printf("Order number : ");
     scanf("%d",&a);
-    int b,c,x,y;
+    int b=0,c=0,x=0,y=0;
     switch(a){
         case 1:
         printf("How much pieces ? : ");
