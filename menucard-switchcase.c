@@ -9,7 +9,7 @@ int main(){
     printf("No. 2 : Pizza - Rs. 60\n");
     printf("Order number : ");
     scanf("%d",&a);
-    int b=0,c=0,x=0,y=0;
+    int b=0,c=0;
     switch(a){
         case 1:
         printf("How much pieces ? : ");
@@ -19,18 +19,17 @@ int main(){
         break;
         case 2:
         printf("How much pieces ? : ");
-        scanf("%d",&x);
-        y = x*60;
-        printf("Your pizzas order's total amount is Rs. %d\n",y);
+        scanf("%d",&b);
+        c = b*60;
+        printf("Your pizzas order's total amount is Rs. %d\n",c);
         break;
         default:
         printf("item not available");
         break;
     }
-    total += c+y;
+    total += c;
     printf("Your total bill is : %d\n",total);
     c = 0;
-    y = 0;
     printf("Do you want to add more?....yes(1)/no(0)");
     scanf("%d",&ans);
     if(ans!=1){
